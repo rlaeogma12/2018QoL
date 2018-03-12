@@ -21,7 +21,6 @@
  * 
  */
 
-
 #include <iostream>
 using namespace std;
 
@@ -37,6 +36,10 @@ public:
 	double totalResult();	
 };
 
+double add(double x, double y){
+	
+}
+
 
 void initCalculator(){
 	Calculator QoLCalculator();
@@ -50,8 +53,7 @@ void initCalculator(){
 			
 			if(val==0){
 					power = false;
-			}	
-		
+			}		
 	}	
 }
 
