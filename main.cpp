@@ -36,11 +36,11 @@ public:
 	double totalResult();
 };
 
-double add(double x, double y){
+double Calculator::add(double x, double y){
     return x+y;
 }
 
-double sub(double x, double y){
+double Calculator::sub(double x, double y){
     return x-y;
 }
 
