@@ -37,6 +37,16 @@ public:
 	double totalResult();	
 };
 
+Calculator::mul(double x, double y) {
+	return x*y;
+}
+
+Calculator::div(double x, double y) {
+	return x / y;
+}
+
+double
+
 
 void initCalculator(){
 	Calculator QoLCalculator();
